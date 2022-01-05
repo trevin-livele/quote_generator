@@ -1,0 +1,23 @@
+<form {ngSubmit}="onSubmit()" #form='ngForm'>
+<div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" name="name" ngModel required #username="ngModel">
+    <span class="text-danger" *ngIf="username.touched  && username.invalid">Please input your name correctly *</span>
+</div>
+<div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" name="email" ngModel required email #useremail="ngModel" email>
+    <span class="text-danger" *ngIf="useremail.touched  && useremail.invalid">Please input your email correctly *</span>
+
+</div>
+
+<div class="form-group">
+    <label for="name">Write your Quote</label>
+    <input type="text" class="form-control" name="name" ngModel required #username="ngModel">
+    <span class="text-danger" *ngIf="username.touched  && username.invalid">Please input your name correctly *</span>
+</div>
+
+
+<button type="submit" class="btn btn-primary mt-2" [disabled]="form.invalid">Submit</button>
+
+</form>
