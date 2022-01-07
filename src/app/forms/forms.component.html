@@ -1,23 +1,31 @@
-<form {ngSubmit}="onSubmit()" #form='ngForm'>
-<div class="form-group">
-    <label for="name">Name</label>
-    <input type="text" class="form-control" name="name" ngModel required #username="ngModel">
-    <span class="text-danger" *ngIf="username.touched  && username.invalid">Please input your name correctly *</span>
-</div>
-<div class="form-group">
-    <label for="email">Email</label>
-    <input type="email" class="form-control" name="email" ngModel required email #useremail="ngModel" email>
-    <span class="text-danger" *ngIf="useremail.touched  && useremail.invalid">Please input your email correctly *</span>
-
-</div>
-
-<div class="form-group">
-    <label for="name">Write your Quote</label>
-    <input type="text" class="form-control" name="name" ngModel required #username="ngModel">
-    <span class="text-danger" *ngIf="username.touched  && username.invalid">Please input your name correctly *</span>
-</div>
-
-
-<button type="submit" class="btn btn-primary mt-2" [disabled]="form.invalid">Submit</button>
-
+<form (ngSubmit)="onSubmit()" #form='ngForm'>
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" name="name" ngModel required #username="ngModel">
+        <span class="text-danger"*ngIf="username.touched  && username.invalid">Please input your name *</span>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="email" ngModel required email #userEmail="ngModel" email>
+        <span class="text-danger" *ngIf="userEmail.touched  && userEmail.invalid">Please input your correct email *</span>
+    </div>
+    <div class="form-group">
+        <label for="quote">Write your Quote</label>
+        <input type="text" class="form-control" name="quote" ngModel required #quote="ngModel">
+        <span class="text-danger" *ngIf="quote.touched  && quote.invalid">Please write a quote *</span>
+    </div>
+    <button type="submit" class="btn btn-primary mt-2" [disabled]="form.invalid" (click)="onAddData(username, userEmail, quote )">Submit</button>
 </form>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" *ngFor="let quote of quotes; let t = index">
+            <li>{{quote.name}}</li>
+            <li>{{quote.email}}</li>
+            <li>{{quote.quote}}</li>
+            <strong (click)="addUpvote(t)">upvote</strong><strong> {{quote.upvote}}</strong> 
+            || <strong (click)="removeUpvote(t)" >Downvote</strong><strong> {{quote.downvote}}</strong> <br>
+            <button type="button" class="btn btn-outline-danger mt-2" (click)="onDeleteQuote(t)">Delete Quote</button>
+        <hr>
+        </div>
+    </div>
+</div>
