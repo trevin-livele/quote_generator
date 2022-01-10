@@ -60,6 +60,19 @@ body {
   border: 0;
   border-radius: 5px;
 }
+.btn-2 {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: red;
+    color: #fff;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+  }
 
 .btn:focus {
   outline: 0;
