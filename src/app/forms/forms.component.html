@@ -18,7 +18,7 @@
         <input type="text" class="form-control" name="quote" ngModel required #quote="ngModel">
         <span class="text-danger" *ngIf="quote.touched  && quote.invalid">Please write a quote *</span>
     </div>
-    <button type="submit" class="btn btn-primary mt-2" [disabled]="form.invalid" (click)="onAddData(username, userEmail, quote )">Submit</button>
+    <button type="submit" class="btn-1 btn-primary mt-2" [disabled]="form.invalid" (click)="onAddData(username, userEmail, quote )">Submit</button>
 </form>
 <div class="container">
     <div class="row">
