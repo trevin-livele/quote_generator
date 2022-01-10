@@ -27,28 +27,26 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # quote_generator
 
-![alt text](/img/screenshots/screenshot1.png)
+<!-- ![alt text](/img/screenshots/screenshot1.png) -->
 
 # Team members
 Trevin Livele
 
 ## project description
-This is a portfolio website meant for the purposes of moringa class room assignent 
-and job application in the future
+This is a quote generator appication that enables Authors to generate their quotes
 
 ### copyright licence
 
 This is an open source project that anyone can feel free to edit,modify and push to git hub freely.
 
 ## Technologies Used
-Used html to create the layout of the page,used css and bootstrap for the styling purposes and js for the
-projects done section"
+Used html to create the layout of the page,used css and bootstrap for the styling purposes and Angular-js for the logic section"
 
 
 .HTML
 .CSS
 .BOOTSTRAP
-.JAVASCRIPT
+.ANGULAR-JS
 
 
 ## Support and contact details
@@ -61,10 +59,10 @@ Information Technology Expert
 https://trevin-livele.github.io/delani_studio/
 
 
-
+<!-- 
 ![alt text](/img/screenshots/screenshot2.png)
 ![alt text](/img/screenshots/screenshot3.png)
-![alt text](/img/screenshots/screenshot4.png)
+![alt text](/img/screenshots/screenshot4.png) -->
 
 
 
