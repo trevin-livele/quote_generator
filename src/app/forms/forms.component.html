@@ -31,7 +31,8 @@
             <li>{{quote.email}}</li>
             <li>{{quote.quote}}</li>
             <strong (click)="addUpvote(t)"><button class="btn btn-primary">upvote</button></strong><strong> {{quote.upvote}}</strong> 
-            || <strong (click)="removeUpvote(t)" ><button class="btn btn-secondary">downvote</button></strong><strong> {{quote.downvote}}</strong> <br>
+            || <strong (click)="removeUpvote(t)" >
+                <button class="btn btn-secondary">downvote</button></strong><strong> {{quote.downvote}}</strong> <br>
             <button type="button" class="btn-2 btn-outline-danger mt-2" (click)="onDeleteQuote(t)">Delete Quote</button>
         <hr>
         </div>

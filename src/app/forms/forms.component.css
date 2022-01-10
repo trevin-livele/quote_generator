@@ -63,7 +63,7 @@ body {
 .btn-2 {
     cursor: pointer;
     display: inline-block;
-    width: 100%;
+    width: 25%;
     background: red;
     color: #fff;
     padding: 15px;
