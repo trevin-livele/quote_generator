@@ -55,9 +55,8 @@ Information Technology Expert
 +254792691810
 
 
-### Link to github pages
-https://trevin-livele.github.io/delani_studio/
-
+### Link to project
+https://trevin-livele.github.io/quote_generator/
 
 <!-- 
 ![alt text](/img/screenshots/screenshot2.png)
