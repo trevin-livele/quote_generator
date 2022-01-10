@@ -50,9 +50,9 @@ export class FormsComponent implements OnInit {
     
   }
   onDeleteQuote(index: number){
-    // let confirmDelete = confirm(`Are you sure you want to delete this quote===>${this.quotes[index].quote}`)
-    // if(confirmDelete){
+    let confirmDelete = confirm(`Are you sure you want to delete this quote===>${this.quotes[index].quote}`)
+    if(confirmDelete){
       this.quotes.splice(index, 1)
-    // }
+    }
   }
 }
