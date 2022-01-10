@@ -8,16 +8,20 @@
         <input type="text" class="form-control" name="name" ngModel required #username="ngModel">
         <span class="text-danger"*ngIf="username.touched  && username.invalid">Please input your name *</span>
     </div>
+    <br>
     <div class="form-group">
         <label for="email">Email</label>
         <input type="email" class="form-control" name="email" ngModel required email #userEmail="ngModel" email>
         <span class="text-danger" *ngIf="userEmail.touched  && userEmail.invalid">Please input your correct email *</span>
     </div>
+     <br>
     <div class="form-group">
         <label for="quote">Write your Quote</label>
         <input type="text" class="form-control" name="quote" ngModel required #quote="ngModel">
         <span class="text-danger" *ngIf="quote.touched  && quote.invalid">Please write a quote *</span>
     </div>
+    <br>
+
     <button type="submit" class="btn-1 btn-primary mt-2" [disabled]="form.invalid" (click)="onAddData(username, userEmail, quote )">Submit</button>
 </form>
 <div class="container">
