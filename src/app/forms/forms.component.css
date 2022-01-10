@@ -5,6 +5,19 @@
   
 }
 
+
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input.ng-touched.ng.invalid.ng-dirty {
+    border: 2px solid red;
+}
+
+
+
 body {
   color: #949496;
   font-family: 'Muli', sans-serif;
