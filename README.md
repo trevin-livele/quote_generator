@@ -26,3 +26,51 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # quote_generator
+
+![alt text](/img/screenshots/screenshot1.png)
+
+# Team members
+Trevin Livele
+
+## project description
+This is a portfolio website meant for the purposes of moringa class room assignent 
+and job application in the future
+
+### copyright licence
+
+This is an open source project that anyone can feel free to edit,modify and push to git hub freely.
+
+## Technologies Used
+Used html to create the layout of the page,used css and bootstrap for the styling purposes and js for the
+projects done section"
+
+
+.HTML
+.CSS
+.BOOTSTRAP
+.JAVASCRIPT
+
+
+## Support and contact details
+Trevin Livele - Full stack software developer
+Information Technology Expert
++254792691810
+
+
+### Link to github pages
+https://trevin-livele.github.io/delani_studio/
+
+
+
+![alt text](/img/screenshots/screenshot2.png)
+![alt text](/img/screenshots/screenshot3.png)
+![alt text](/img/screenshots/screenshot4.png)
+
+
+
+
+
+
+### License
+Copyright (c) {2021} **{Trevin Livele}**
+  
