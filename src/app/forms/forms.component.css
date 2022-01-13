@@ -70,3 +70,13 @@ body {
     font-style: italic;
   }
 
+.date{
+  color: blue;
+  display: flex;
+}
+
+.date-field{
+  text-align: center;
+  font-size: large;
+  display: block;
+}
