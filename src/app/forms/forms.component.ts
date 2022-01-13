@@ -8,6 +8,7 @@ import { Quotes } from '../quotes';
   styleUrls: ['./forms.component.css']
 })
 export class FormsComponent implements OnInit {
+  currentDate = new Date()
 
   quotes: Quotes[] = [
     new Quotes('Trevin', "trevin@gmail.com", "Love is not blind", 0, 0),
@@ -23,6 +24,10 @@ export class FormsComponent implements OnInit {
   @ViewChild('form') signupForm: ElementRef
   ngOnInit(): void {
   }
+
+
+
+
 
   onSubmit() {
     console.log(this.signupForm)

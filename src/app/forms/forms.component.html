@@ -30,6 +30,8 @@
             <li>{{quote.name}}</li>
             <li>{{quote.email}}</li>
             <li>{{quote.quote}}</li>
+            {{ currentDate | date }}
+
             <strong (click)="addUpvote(t)"><button class="btn btn-primary">upvote</button></strong><strong> {{quote.upvote}}</strong> 
             || <strong (click)="removeUpvote(t)" >
                 <button class="btn btn-secondary">downvote</button></strong><strong> {{quote.downvote}}</strong> <br>

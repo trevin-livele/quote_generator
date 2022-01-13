@@ -9,6 +9,12 @@ export class AppComponent {
 
   title = 'quote_generator';
 
+
+
+
+
+
+
   quotes: Quotes[] = [
     new Quotes('Trevin', "trevin@gmail.com", "Love is not blind", 0, 0),
     new Quotes('Livele', "livele@gmail.com", "Arsenal is the best team according to trevo", 0, 0),
